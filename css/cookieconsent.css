@@ -1,0 +1,12 @@
+/* Override Cookie Consent Styles */
+
+.cc_container .cc_btn,
+.cc_container .cc_btn:visited {
+	color: #fff !important;
+	background-color: #0078d0 !important;
+}
+
+.cc_container a,
+.cc_container a:visited {
+	color: #0078d0 !important;
+}
