@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Silktide Cookie Consent
- * Plugin URI: https://silktide.com/tools/cookie-consent/
+ * Plugin URI: https://github.com/dianewallace/silktide-cookieconsent
  * Description: Cookie Consent Plugin based on Silktide Cookie Consent JavaScript Plugin
  * Author: Diane Wallace
  * Author URI: http://dianewallace.co.uk/
@@ -29,10 +29,10 @@ function silktide_cookies_scripts() {
 		'<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
 		window.cookieconsent_options = {
 			"message":"We use cookies to ensure we can provide you with the best experience on our website. To find out more about the cookies we use and how to change your settings please view our ",
-			"dismiss":"<strong>X</strong>",
-			"learnMore":"Privacy Policy",
-			"link":"/privacy-policy/",
-			"theme":"light-bottom"
+			"dismiss":"Got it!",
+			"learnMore":"Cookie Policy",
+			"link":"/cookie-policy/",
+			"theme":"dark-bottom"
 		};
 		<!-- End Cookie Consent plugin -->',
 		'after'
